@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
  * building robust, powerful web applications using React + Laravel.
  */
 
-require('./bootstrap');
+import './bootstrap';
 
 /**
  * Next, we will create a fresh React component instance and attach it to
@@ -14,7 +14,7 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/AdminSeats');
-require('./components/AdminLogs');
-require('./components/Booking');
-require('./components/Dashboard');
+import './components/AdminSeats';
+import './components/AdminLogs';
+import './components/Booking';
+import './components/Dashboard';
